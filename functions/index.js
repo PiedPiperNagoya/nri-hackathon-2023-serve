@@ -28,8 +28,8 @@ exports.getCandidates = onCall(
       locationBias: {
         circle: {
           center: {
-            latitude: 35.680959106959,
-            longitude: 139.76730676352,
+            latitude: req.data.lat,
+            longitude: req.data.lng,
           },
           radius: 50000,
         },
